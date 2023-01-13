@@ -1,0 +1,20 @@
+.register {
+  min-height: 93vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-card {
+  width: 500px !important;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 50px -30px rgba(34, 60, 80, 0.389);
+}
+
+.disabled-link {
+  pointer-events: none;
+  opacity: .8;
+}
