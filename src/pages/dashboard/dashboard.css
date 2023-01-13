@@ -1,0 +1,9 @@
+.diagramm {
+  min-height: 400px !important;
+}
+
+.title-of-component {
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(59, 59, 59);
+}
