@@ -64,7 +64,7 @@ const Users = () => {
   // modal
   const [show, setShow] = useState(false);
   const [isEdit, setIsEdit] = useState(false);
-
+  
   // delete modal
   const [deleteModal, setDeleteModal] = useState(false);
 

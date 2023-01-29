@@ -10,13 +10,13 @@
       "id": 1
     },
     {
-      "first_name": "John",
-      "last_name": "Doe",
-      "username": "johnDoe",
+      "id": 2,
+      "first_name": "User",
+      "last_name": "User",
+      "username": "user",
       "status": false,
-      "photo": "",
-      "password": "111",
-      "id": 3
+      "password": "69",
+      "photo": ""
     }
   ]
 }

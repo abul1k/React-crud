@@ -1,5 +1,5 @@
 // react hooks
-import { useState } from "react";
+// import { useEffect } from "react";
 
 // bootstrap
 import Button from "react-bootstrap/Button";
@@ -19,25 +19,11 @@ import { BiUserCircle } from "react-icons/bi";
 
 // toast
 import { toast } from "react-toastify";
+// import axios from "axios";
 
 function NavScrollExample() {
   const { pathname } = useLocation();
-  // const [theme, setTheme] = useState(true);
   const navigate = useNavigate();
-
-  // const changeTheme = () => {
-  //   setTheme(!theme);
-
-  //   let current_theme;
-
-  //   if (theme) {
-  //     current_theme = "dark";
-  //     JSON.stringify(localStorage.setItem("theme", current_theme));
-  //   } else {
-  //     current_theme = "light";
-  //     JSON.stringify(localStorage.setItem("theme", current_theme));
-  //   }
-  // };
 
   const user = JSON.parse(localStorage.getItem("user"));
 
@@ -109,9 +95,6 @@ function NavScrollExample() {
               Statistics
             </Link>
           </Nav>
-          {/* <button className="btn text-white mr-5" onClick={changeTheme}>
-            {theme ? <FiMoon size="25" /> : <FiSun size="25" />}
-          </button> */}
           {user && user !== null ? (
             <div className="d-flex align-items-center justify-content-between">
               <div className="text-white">
