@@ -1,0 +1,11 @@
+.progress-bar {
+  font-weight: 500;
+}
+
+.progress-bar-animated {
+  color: #000 !important;
+}
+
+.pointer {
+  cursor: pointer !important;
+}

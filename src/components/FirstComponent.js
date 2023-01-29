@@ -84,16 +84,6 @@ function NavScrollExample() {
             >
               Tasks
             </Link>
-            <Link
-              className={
-                pathname === "/statistics"
-                  ? "text-warning mx-2 text-decoration-none"
-                  : "text-white mx-2 text-decoration-none"
-              }
-              to="/statistics"
-            >
-              Statistics
-            </Link>
           </Nav>
           {user && user !== null ? (
             <div className="d-flex align-items-center justify-content-between">

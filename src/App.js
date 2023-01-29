@@ -10,11 +10,11 @@ import FirstComponent from "./components/FirstComponent";
 import Dashboard from "./pages/dashboard/Dashboard";
 import Users from "./pages/Users/Users";
 import Task from "./pages/Task/Task";
-import Statistics from "./pages/Statistics/Statistics";
 import NotFoundPage from "./components/NotFoundPage";
 
 // toast
 import { ToastContainer } from "react-toastify";
+import TaskDetail from "./pages/Task/components/TaskDetail";
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/users" element={<Users />} />
           <Route path="/tasks" element={<Task />} />
-          <Route path="/statistics" element={<Statistics />} />
+          <Route path="/task-detail" element={<TaskDetail />} />
           <Route path="/signUp" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<NotFoundPage />} />

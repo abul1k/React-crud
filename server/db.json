@@ -15,8 +15,51 @@
       "last_name": "User",
       "username": "user",
       "status": false,
-      "password": "69",
+      "password": "1",
       "photo": ""
+    }
+  ],
+
+  "projects": [
+    {
+      "id": 1,
+      "project_name": "CRM Abula",
+      "start_date": "01-01-2022",
+      "end_date": "01-01-2023",
+      "description": "CRM for develop React skills and make a functional for control users and tasks",
+      "done": 25
+    },
+    {
+      "id": 2,
+      "project_name": "Service Desk",
+      "start_date": "01-01-2022",
+      "end_date": "01-01-2023",
+      "description": "Service Desk for develop React skills and make a functional for control users and tasks",
+      "done": 50
+    },
+    {
+      "id": 3,
+      "project_name": "EDO",
+      "start_date": "01-01-2022",
+      "end_date": "01-01-2023",
+      "description": "EDO for develop React skills and make a functional for control users and tasks",
+      "done": 12
+    },
+    {
+      "id": 4,
+      "project_name": "Free Link",
+      "start_date": "01-01-2022",
+      "end_date": "01-01-2023",
+      "description": "Free Link for develop React skills and make a functional for control users and tasks",
+      "done": 100
+    },
+    {
+      "id": 5,
+      "project_name": "Ajwa",
+      "start_date": "01-01-2022",
+      "end_date": "01-01-2023",
+      "description": "Ajwa for control users and tasks",
+      "done": 0
     }
   ]
 }
