@@ -9,3 +9,19 @@
 .pointer {
   cursor: pointer !important;
 }
+
+.project-logo {
+  border-radius: 10px;
+  background: rgb(40, 62, 49);
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.project-logo img {
+  object-fit: cover !important;
+}
+
+.action {
+  margin-bottom: 50px !important;
+}

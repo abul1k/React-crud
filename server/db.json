@@ -1,15 +1,6 @@
 {
   "users": [
     {
-      "first_name": "Abdulaziz",
-      "last_name": "Izzatullayev",
-      "username": "admin",
-      "status": true,
-      "photo": "",
-      "password": "1",
-      "id": 1
-    },
-    {
       "id": 2,
       "first_name": "User",
       "last_name": "User",
@@ -17,9 +8,17 @@
       "status": false,
       "password": "1",
       "photo": ""
+    },
+    {
+      "first_name": "Abdulaziz",
+      "last_name": "Izzatullayev",
+      "username": "admin",
+      "status": true,
+      "photo": "",
+      "password": "1",
+      "id": 3
     }
   ],
-
   "projects": [
     {
       "id": 1,
